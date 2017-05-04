@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/glide_site"
+        android:title="Glide Libarary"
+        />
+    <item
+        android:id="@+id/nationalGeographic_site"
+        android:title="National Geographic"
+        />
+    <item
+        android:id="@+id/pulitzerPrizes_site"
+        android:title="Pulitzer Prizes"
+        />
+    <item
+        android:id="@+id/worldMuseum_site"
+        android:title="World Museum"
+        />
+    <item
+        android:id="@+id/infomation"
+        app:showAsAction="always"
+        android:title="infomation"
+        android:icon="@mipmap/ic_info"
+        />
+</menu>

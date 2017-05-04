@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/sub01"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="kr.hkit.jimageshop.Sub01Activity">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+        <ImageButton
+                android:id="@+id/btnNew"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="#00000000"
+                android:scaleType="fitCenter"
+                android:layout_marginRight="10dp"
+                android:contentDescription="new Drawing"
+                android:onClick="onSub01ButtonClicked"
+                app:srcCompat="@mipmap/ic_newfile" />
+
+        <ImageButton
+                android:id="@+id/btnBrush"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="#00000000"
+                android:scaleType="fitCenter"
+                android:layout_marginRight="10dp"
+                android:contentDescription="brush mode"
+                android:onClick="onSub01ButtonClicked"
+                app:srcCompat="@mipmap/ic_pen" />
+
+        <ImageButton
+                android:id="@+id/btnEraser"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="#00000000"
+                android:scaleType="fitCenter"
+                android:layout_marginRight="10dp"
+                android:contentDescription="eraser"
+                android:onClick="onSub01ButtonClicked"
+                app:srcCompat="@mipmap/ic_eraser" />
+
+        <ImageButton
+                android:id="@+id/btnSave"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="fitCenter"
+                android:background="#00000000"
+                android:contentDescription="save"
+                android:onClick="onSub01ButtonClicked"
+                app:srcCompat="@mipmap/ic_save" />
+    </LinearLayout>
+
+    <!-- create Tag(태그를 직접 만든다 singleTouchView class) -->
+    <kr.hkit.jimageshop.SingleTouchView
+            android:id="@+id/drawing"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="#ffffffff" />
+
+    <!-- paint color -->
+    <LinearLayout
+            android:id="@+id/paint_colors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+        <ImageButton
+                android:id="@+id/imageButton12"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="5dp"
+                android:background="#ff000000"
+                android:contentDescription="BLACK"
+                android:onClick="onColorClicked"
+                android:tag="#ff000000" />
+
+        <ImageButton
+                android:id="@+id/imageButton11"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="5dp"
+                android:background="#ffff0000"
+                android:contentDescription="RED"
+                android:onClick="onColorClicked"
+                android:tag="#ffff0000" />
+
+        <ImageButton
+                android:id="@+id/imageButton10"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="5dp"
+                android:background="#ff6600"
+                android:contentDescription="ORANGE"
+                android:onClick="onColorClicked"
+                android:tag="#ff6600" />
+
+        <ImageButton
+                android:id="@+id/imageButton9"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="5dp"
+                android:background="#ffffcc00"
+                android:contentDescription="YELLOW"
+                android:onClick="onColorClicked"
+                android:tag="#ffcc00" />
+
+        <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="5dp"
+                android:background="#ff009900"
+                android:contentDescription="GREEN"
+                android:onClick="onColorClicked"
+                android:tag="#ff009900" />
+
+        <ImageButton
+                android:id="@+id/imageButton7"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="5dp"
+                android:background="#ff0000ff"
+                android:contentDescription="BLUE"
+                android:onClick="onColorClicked"
+                android:tag="#ff0000ff" />
+
+        <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+
+                android:background="#ffff00ff"
+                android:contentDescription="PINK"
+                android:onClick="onColorClicked"
+                android:tag="#ffff00ff" />
+
+    </LinearLayout>
+
+</LinearLayout>

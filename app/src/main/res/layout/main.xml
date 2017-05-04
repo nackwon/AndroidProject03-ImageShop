@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background01"
+    android:padding="5dp"
+    tools:context="kr.hkit.jimageshop.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/layoutDown"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCanvas"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="3dp"
+            android:background="#55ffffff"
+            android:onClick="onMainButtonClicked"
+            android:text="그림판"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+        <Button
+            android:id="@+id/btnConvert"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="3dp"
+            android:background="#55ffffff"
+            android:onClick="onMainButtonClicked"
+            android:text="이미지 변환"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+        <Button
+            android:id="@+id/btnConvertGlide"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:background="#55ffffff"
+            android:onClick="onMainButtonClicked"
+            android:text="이미지 변환\n(glide \n라이브러리)"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutDown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnMasterPiece"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="7dp"
+            android:layout_toLeftOf="@+id/btnPicture"
+            android:background="#55ffffff"
+            android:onClick="onMainButtonClicked"
+            android:text="명화 보기"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+        <Button
+            android:id="@+id/btnPicture"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="7dp"
+            android:background="#55ffffff"
+            android:onClick="onMainButtonClicked"
+            android:text="사진 보기"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+        <Button
+            android:id="@+id/btnMuseum"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="7dp"
+            android:background="#55ffffff"
+            android:onClick="onMainButtonClicked"
+            android:text="미술관 보기"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+    </LinearLayout>
+</RelativeLayout>

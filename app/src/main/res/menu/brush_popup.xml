@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/brush1"
+            android:title="1f"
+            />
+    <item
+            android:id="@+id/brush5"
+            android:title="5f"
+            />
+    <item
+            android:id="@+id/brush10"
+            android:title="10f"
+            />
+    <item
+            android:id="@+id/brush20"
+            android:title="20f"
+            />
+    <item
+            android:id="@+id/brush30"
+            android:title="30f"
+            />
+</menu>

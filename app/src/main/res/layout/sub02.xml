@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/sub02"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#33cccccc"
+              android:orientation="vertical"
+              android:padding="5dp"
+              android:weightSum="1"
+              tools:context="kr.hkit.jimageshop.Sub02Activity">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+        <ImageButton
+                android:id="@+id/btnPlus"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="4dp"
+                android:scaleType="fitCenter"
+                android:background="#00ffffff"
+                android:onClick="onSub02ButtonClicked"
+                app:srcCompat="@mipmap/ic_plus"/>
+
+        <ImageButton
+                android:id="@+id/btnMinus"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="4dp"
+                android:scaleType="fitCenter"
+                android:background="#00ffffff"
+                android:onClick="onSub02ButtonClicked"
+                app:srcCompat="@mipmap/ic_minus"/>
+
+        <ImageButton
+                android:id="@+id/btnRotateRight"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="4dp"
+                android:scaleType="fitCenter"
+                android:background="#00ffffff"
+                android:onClick="onSub02ButtonClicked"
+                app:srcCompat="@mipmap/ic_right"/>
+
+        <ImageButton
+                android:id="@+id/btnRotateLeft"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="fitCenter"
+                android:layout_marginRight="4dp"
+                android:background="#00ffffff"
+                android:onClick="onSub02ButtonClicked"
+                app:srcCompat="@mipmap/ic_left"/>
+
+        <ImageButton
+                android:id="@+id/btnReverseHorizental"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="4dp"
+                android:scaleType="fitCenter"
+                android:background="#00ffffff"
+                android:onClick="onSub02ButtonClicked"
+                app:srcCompat="@mipmap/ic_rightleft"/>
+
+        <ImageButton
+                android:id="@+id/btnReverseVertical"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="fitCenter"
+                android:layout_marginRight="4dp"
+                android:background="#00ffffff"
+                android:onClick="onSub02ButtonClicked"
+                app:srcCompat="@mipmap/ic_updown"/>
+
+        <ImageButton
+                android:id="@+id/btnReset"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="#00ffffff"
+                android:scaleType="fitCenter"
+                android:onClick="onSub02ButtonClicked"
+                app:srcCompat="@mipmap/ic_reset"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/imageLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="2dp"
+
+            android:layout_weight="1"
+            android:orientation="vertical">
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+        <ImageButton
+                android:id="@+id/btnBrightUp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="fitCenter"
+                android:layout_marginRight="4dp"
+                android:background="#00ffffff"
+                android:onClick="onSub02ButtonClicked"
+                app:srcCompat="@mipmap/ic_brightup"/>
+
+        <ImageButton
+                android:id="@+id/btnBrightDown"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="fitCenter"
+                android:layout_marginRight="4dp"
+                android:background="#00ffffff"
+                android:onClick="onSub02ButtonClicked"
+                app:srcCompat="@mipmap/ic_brigthdown"/>
+
+
+        <ImageButton
+                android:id="@+id/btnGrayTone"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="4dp"
+                android:background="#00ffffff"
+                app:srcCompat="@mipmap/ic_gray"
+                android:onClick="onSub02ButtonClicked"/>
+
+        <ImageButton
+                android:id="@+id/btnRedTone"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="4dp"
+                android:background="#00ffffff"
+                app:srcCompat="@mipmap/ic_red"
+                android:onClick="onSub02ButtonClicked"/>
+
+        <ImageButton
+                android:id="@+id/btnReverse"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="fitCenter"
+                android:layout_marginRight="4dp"
+                android:background="#00ffffff"
+                android:onClick="onSub02ButtonClicked"
+                app:srcCompat="@mipmap/ic_reverse"/>
+
+        <ImageButton
+                android:id="@+id/btnOpen"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="fitCenter"
+                android:layout_marginRight="4dp"
+                android:background="#00ffffff"
+                android:onClick="onSub02ButtonClicked"
+                app:srcCompat="@mipmap/ic_upload"/>
+
+        <ImageButton
+                android:id="@+id/btnSave"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="fitCenter"
+                android:background="#00ffffff"
+                android:onClick="onSub02ButtonClicked"
+                app:srcCompat="@mipmap/ic_download"/>
+    </LinearLayout>
+</LinearLayout>

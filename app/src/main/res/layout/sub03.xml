@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/sub03"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#2a2a2a2a"
+              android:orientation="vertical"
+              tools:context="kr.hkit.jimageshop.Sub03Activity">
+
+    <!-- upper button -->
+    <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbarSize="1dp"
+            >
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:background="#ffffff"
+                android:padding="5dp">
+
+            <ImageView
+                    android:id="@+id/imageView01"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="3dp"
+                    android:contentDescription="정원"
+                    android:onClick="onGlideImageViewClicked" />
+
+            <ImageView
+                    android:id="@+id/imageView02"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="3dp"
+                    android:contentDescription="정사각형"
+                    android:onClick="onGlideImageViewClicked"
+                    android:scaleType="fitCenter" />
+
+            <ImageView
+                    android:id="@+id/imageView03"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="3dp"
+                    android:contentDescription="둥근모서리"
+                    android:onClick="onGlideImageViewClicked" />
+
+            <ImageView
+                    android:id="@+id/imageView04"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="3dp"
+                    android:contentDescription="블러 증가"
+                    android:onClick="onGlideImageViewClicked"
+                    android:scaleType="fitCenter" />
+
+            <ImageView
+                    android:id="@+id/imageView05"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="3dp"
+                    android:contentDescription="블러 감소"
+                    android:onClick="onGlideImageViewClicked"
+                    android:scaleType="fitCenter" />
+
+            <ImageView
+                    android:id="@+id/imageView06"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="3dp"
+                    android:contentDescription="밝기 증가"
+                    android:onClick="onGlideImageViewClicked"
+                    android:scaleType="fitCenter" />
+
+            <ImageView
+                    android:id="@+id/imageView07"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="3dp"
+                    android:contentDescription="밝기 감소"
+                    android:onClick="onGlideImageViewClicked"
+                    android:scaleType="fitCenter" />
+
+            <ImageView
+                    android:id="@+id/imageView08"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="3dp"
+                    android:contentDescription="그레이 톤"
+                    android:onClick="onGlideImageViewClicked"
+                    android:scaleType="fitCenter" />
+
+            <ImageView
+                    android:id="@+id/imageView09"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="3dp"
+                    android:contentDescription="세피아 톤"
+                    android:onClick="onGlideImageViewClicked"
+                    android:scaleType="fitCenter" />
+
+            <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="3dp"
+                    android:contentDescription="반전 효과"
+                    android:onClick="onGlideImageViewClicked"
+                    android:scaleType="fitCenter"/>
+
+            <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="3dp"
+                    android:contentDescription="스케치 효과"
+                    android:onClick="onGlideImageViewClicked"
+                    android:scaleType="fitCenter" />
+
+            <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="3dp"
+                    android:contentDescription="만화 효과"
+                    android:onClick="onGlideImageViewClicked"
+                    android:scaleType="fitCenter" />
+
+            <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="3dp"
+                    android:contentDescription="소용돌이 효과(1)"
+                    android:onClick="onGlideImageViewClicked"
+                    android:scaleType="fitCenter" />
+
+            <ImageView
+                    android:id="@+id/imageView14"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="3dp"
+                    android:contentDescription="소용돌이 효과(2)"
+                    android:onClick="onGlideImageViewClicked"
+                    android:scaleType="fitCenter" />
+
+            <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="3dp"
+                    android:contentDescription="수체화 효과"
+                    android:onClick="onGlideImageViewClicked"
+                    android:scaleType="fitCenter" />
+
+            <ImageView
+                    android:id="@+id/imageView16"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="3dp"
+                    android:contentDescription="비그넷 효과"
+                    android:onClick="onGlideImageViewClicked"
+                    android:scaleType="fitCenter" />
+
+            <ImageView
+                    android:id="@+id/imageView17"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="3dp"
+                    android:contentDescription="비그넷 범위 효과"
+                    android:onClick="onGlideImageViewClicked"
+                    android:scaleType="fitCenter" />
+
+            <ImageView
+                    android:id="@+id/imageView18"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="3dp"
+                    android:contentDescription="레드 톤"
+                    android:onClick="onGlideImageViewClicked"
+                    android:scaleType="fitCenter" />
+
+            <ImageView
+                    android:id="@+id/imageView19"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="3dp"
+                    android:contentDescription="그린 톤"
+                    android:onClick="onGlideImageViewClicked"
+                    android:scaleType="fitCenter" />
+
+            <ImageView
+                    android:id="@+id/imageView20"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="3dp"
+                    android:contentDescription="블루 톤"
+                    android:onClick="onGlideImageViewClicked"
+                    android:scaleType="fitCenter" />
+
+            <ImageView
+                    android:id="@+id/imageView21"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="3dp"
+                    android:contentDescription="콘트라스트 효과"
+                    android:onClick="onGlideImageViewClicked"
+                    android:scaleType="fitCenter" />
+
+            <ImageView
+                    android:id="@+id/imageView22"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="3dp"
+                    android:contentDescription="픽셀 효과"
+                    android:onClick="onGlideImageViewClicked"
+                    android:scaleType="fitCenter" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <!-- View -->
+    <ImageView
+            android:id="@+id/camvasImageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:background="#ffffff"
+            android:layout_weight="1" />
+
+    <!-- bottom button-->
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+        <ImageView
+                android:id="@+id/imageOpen"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="20dp"
+                android:contentDescription="열기"
+                android:onClick="onImageViewClicked"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/ic_glide_open" />
+
+        <ImageView
+                android:id="@+id/imageCamera"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="20dp"
+                android:contentDescription="카메라"
+                android:onClick="onImageViewClicked"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/ic_glide_camera" />
+
+        <ImageView
+                android:id="@+id/imageSave"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="20dp"
+                android:contentDescription="저장"
+                android:onClick="onImageViewClicked"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/ic_glide_save" />
+
+        <ImageView
+                android:id="@+id/imageReset"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:contentDescription="리셋"
+                android:onClick="onImageViewClicked"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/ic_glide_reset" />
+    </LinearLayout>
+
+
+</LinearLayout>
